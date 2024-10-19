@@ -1,0 +1,10 @@
+Type of path in img tag:
+      1. Absolute Path: The path which is represented from its root directory in knows as Absolute Path.
+      e.g. D:\java-fullStack\front-end\HTML\image\assets\Melondi.jpg.
+
+
+      1. Relative Path: The path which is represented from its current directory in knows as Absolute Path.
+      e.g. front-end\HTML\image\assets\Melondi.jpg
+
+
+

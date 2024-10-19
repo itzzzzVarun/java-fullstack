@@ -1,0 +1,11 @@
+Navigate to the project folder
+
+Do global configuration by writing following code
+first command: git init
+The above command will create .git folder inside the project folder which is a hidden folder
+Futher configuretion will be done by auto-config extension of VSCode
+
+step 1: auto-config will ask for your name then you have to write your name and press enter
+step 2: auto-config will ask for your emailId then you have to write your emailId and press enter
+
+After following these above given steps, you are done with local configuretion for git in your project

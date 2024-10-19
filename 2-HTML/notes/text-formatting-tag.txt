@@ -1,0 +1,33 @@
+These are some text formatting tags:
+
+1-> blod tag -> <b> text... </b>
+
+2-> Italic tag -> <i> text... </i>
+
+3-> underline tag -> <u> text... </u>
+
+4-> strong tag -> <strong> text... </strong>
+
+5-> emphasie tag -> <em> text... </em>
+
+6-> insert tag -> <ins> text... </ins>
+
+7-> strike tag -> <strike> text... </strike>
+
+8-> s tag -> <s> text... </s>
+
+9-> delete tag -> <del> text... </del>
+
+10-> sub script tag -> <sub> text... </sub>
+
+11-> super script tag -> <sup> text... </sup>
+
+12-> code tag  -> <code> </code>
+
+13-> address tag  -> <address> </address>
+
+14-> pre tag -> <pre> </pre>
+
+15->  q tag  -> <q> </p>
+
+16-> block quote tag -> <BlockQuote></BlockQuote>

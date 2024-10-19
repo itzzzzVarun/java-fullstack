@@ -1,0 +1,6 @@
+Tag:- keywords enclosed by angular brackets(< >)
+      <keyword>...</keyword>
+
+Types of tags: 
+                1-> Container tag/ Pair tag     : <keyword> </keyword> (Closing tag is mandatory)
+                2-> Non-Container/ Unpair tag   : <keyword /> (It can be self closing and separate closing tag is not mandatory).

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline vs Block</title>
+  <style>
+    span{
+      background-color: red;
+      /* height and width does not affect inline element*/
+      height: 800px;
+      width: 900px;
+    }
+
+    div {
+      background-color: aqua;
+      /* height and width will affect block element*/
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <!--Inline element-->
+  <span>This is inline element</span>
+
+  <!-- Block element -->
+   <div>This is block element</div>
+</body>
+</html>

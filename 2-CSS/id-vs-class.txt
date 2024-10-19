@@ -1,0 +1,20 @@
+Id 
+
+1. It is used to target element uniquely.
+
+2. Multiple elements can not have same id.
+
+3. One element can have only one id's value.
+
+4. To target  an element using it in css we can use '#'.
+
+
+class
+
+1. It is used to target Multiple element at a time.
+
+2. Multiple elements can have same class.
+
+3. One element can have Multiple class's value.
+
+4. To target  an element using it in css we can use '.' .

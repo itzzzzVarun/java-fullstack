@@ -1,0 +1,17 @@
+Hyperlink -> Hyperlink is used to link or attach different document to our web/html page.
+
+steps to create Hyperlink:
+
+step1 -> First we have to mark the content with anchor tag.
+
+step2 -> Mention the path or location or hyper reference where we want user to be redirected. we use href=" " attribute.
+
+
+target attribute of anchor tag: Target attribute used to specify where to open the link.
+
+There can be four values in target tag:
+    1) _self : open link in same tab
+    2) _blank : open link in new tab
+    3) _self
+    4) _self
+

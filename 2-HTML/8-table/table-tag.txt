@@ -1,0 +1,9 @@
+In html, we have 2 ways to span the cells
+
+1. Border:- It is used to create border around the table
+
+2. Rowspan:- Rowspan is an attribute used to span the cells on row basis.
+
+3. Colspan:- Colspan is an attribute used to span the cells on column basis.
+
+4. rules:- all.

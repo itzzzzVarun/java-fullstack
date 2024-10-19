@@ -1,0 +1,18 @@
+Download and install git
+
+check version using command propt
+    type command: git -v or git --version
+
+Do global configuration by writing following code
+    first command: git config --global user.name "Your username"
+    second command: git congit --global user.email "Your email id"
+    third command: git config --global core.editor "code --wait"
+    forth command: git confit --global core.autocrlf true 
+To edit global configuration file run command
+    fifth command: git config --global -e
+
+Some extensions recommendation to download for good git experience with VSCode
+1> git graph
+2> gitlens
+3> gitblame
+4> git-autoconfig

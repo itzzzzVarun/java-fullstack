@@ -1,0 +1,66 @@
+1. type Attribute: It defines the type of the input flied, as input flied can be of various type such as
+text
+tel
+email
+password
+file
+button
+range
+date
+color
+checkbox
+radio
+cancel
+reset
+submit
+and few more...
+
+2. Name Attribute: name Attribute is used to provide name to the input field.
+
+3. value Attribute: value Attribute is used to provide initial value to the input field.
+
+4. disabled: It make a input field as disabled user can not access the input field.
+
+5. readonly: It will make the input field as readonly user can not access the value but can access the input field.
+
+6. Required: It will make the input field as mandotary. If input field is empty form will not be submitted.
+
+7. placeholder: It is used to provide hint to the user.
+
+8. autofocus: Whenever page reload it will automatically focus an input field.
+
+
+
+
+Select Tag:
+            1. Select tag is used to create dropdown list.
+            2. Here we are providing multimedia
+
+
+
+            4. syntax: <select name=""> 
+                          <option> option1  </option>
+                          <option>  option1  </option>
+                          <option>  option1 </option>
+                          <option>  option1 </option>
+                      </select>
+
+
+
+Important  Note: Difference b\w input type submit and button tag.
+
+                      <input type="submit">
+  It always try to connect to the server. If server is there it will send the data.
+  It is a non-container tag/Unpair tag.
+  It will reload the page.
+  It is not fully compatible with js.
+  In input submit, we can not we any other content to create submit button.
+
+
+
+                        <button> tag
+  It always not try to connect to the server.
+  It is a container tag/pair tag.
+  It will not reload the page.
+  It is fully compatible with js.
+  In button tag, we can use image or any other content to create a submit button.

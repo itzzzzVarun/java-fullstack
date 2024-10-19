@@ -1,0 +1,7 @@
+Thead tag: The top most of our table we have to write within <thead></thead> tag.
+
+Tfood tag: The bottom most of our table we have to write within <tfood></tfood> tag.
+
+Tbody tag: Remaining content of our table we have to write within <tbody></tbody> tag.
+
+Note:- Thead, Tbody and Tfood tag are highly recommended to use inside a table for better explanation and crawler understanding purpose.

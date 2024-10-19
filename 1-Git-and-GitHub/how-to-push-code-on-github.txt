@@ -1,0 +1,8 @@
+Command to push code on github using git commands
+first command: git init
+second command: git add . (if you want to push all the files of the folder) or git add "filename.extension"
+third command: git commit -m "Your message"
+forth command: git remote add origin "link of your github repo"
+fifth command: git branch -M main (to change the branch from master to main)
+sixth command: git push -u origin main
+After running these all commands go to github repo and refresh, you will found all the folders and file at your github repo.

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Labeled Form</title>
+  <style>
+    fieldset{
+      width: 200px;
+    }
+    legend {
+      text-align: center;
+    }
+    textarea {
+      resize: none;
+    }
+  </style>
+</head>
+<body>
+  <form action="" autocomplete="off">
+    <fieldset>
+      <legend>Login Form</legend>
+    <label for="username">
+      Username
+    </label>
+    <input type="text" name="username" id="username" placeholder="Enter your username..."> <br> <br>
+    <label for="pass">
+      Password
+    </label>
+    <input type="password" name="pass" id="pass" placeholder="Enter your username..."> <br> <br>
+    <label for="yop">
+      YOP details:
+    </label>
+      <select name="user-yop" id="yop">
+      <option value="" selected disabled>--select YOP--</option>
+      <option value="2024">2024</option>
+      <option value="2023">2023</option>
+      <option value="2023">2022</option>
+      <option value="2021">2021</option>
+    </select> <br> <br>
+    <label for="branch">
+      Branch Details:
+    </label>
+      <select name="branch" id="branch">
+        <option value="" selected disabled>-Select Branch-</option>
+        <optgroup label="Computer Science">
+          <option value="2024">CSE</option>
+          <option value="2023">IT</option>
+          <option value="2023">CSE(AI/ML)</option>
+          <option value="2021">CSE(Data Science)</option>
+        </optgroup>
+        <option value="ME">Mechenical</option>
+        <option value="civil">Civil</option>
+        <option value="ME">Chamical</option>
+        <option value="civil">Electronics</option>
+        <option value="Electrical">Electrical</option>
+    </select> <br> <br>
+
+    <input type="text" list="state" name="state" placeholder="Enter your state...">
+    <datalist id="state">
+      <option value="Andhrapradesh">Andhrapradesh</option>
+      <option value="Uttar Pradesh">Uttar Pradesh</option>
+      <option value="Uttrakhand">Uttrakhand</option>
+      <option value="Himanchal Pradesh">Himanchal Pradesh</option>
+      <option value="Arunachal">Arunachal</option>
+    </datalist> <br> <br>
+    <label for="feedback">Feedback</label>
+    <textarea name="feedback" id="feedback" cols="25" rows="4" placeholder="Write your feedback before login..."></textarea> <br> <br>
+    <input type="submit">
+    <button type="cancel"> cancel </button>
+
+  </fieldset>
+  </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+It is the combination of opening tag and content with closing tag.
+      e.g. <p> Text... </p>
+
+Void element: Those tags which can not holds any content is known as void elements or empty elements.
+
+
+Types of element: Two types of elements are there:
+                  1. Inline level element :
+                    e.g. <span>text...</span>(We can not define its height and width)
+
+                  2. Block level element  : 
+                    e.g. <div>text...</div> (By default it starts from new line and take the enire width of the web page and we can also define it width and height.)

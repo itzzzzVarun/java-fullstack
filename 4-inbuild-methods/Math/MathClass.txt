@@ -1,0 +1,1 @@
+Math is class available in java.lang package which contains various mathematical methods to perform different operations. The methods in Math class are static type methods so it can be called by using class name as reference.

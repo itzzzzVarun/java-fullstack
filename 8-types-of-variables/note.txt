@@ -1,0 +1,72 @@
+A local variable can not be static or non-static, It is only a local variable.
+
+class Fruit {
+  static int a = 10; // static variable
+  int b = 20; //not-static
+
+  public static void main(String[] args) {
+    int x = 40; // local
+    {
+      int c = 50; //local
+    }
+    int d = 50 // local
+  } 
+  int e = 60; // non-static
+  static int f = 70; // static
+  {
+    int g = 90; //local
+  }
+  int h = 80 // not-static
+}
+
+
+                                                  ----IMPORTANT POINTS----
+1. A static variable can be accessed inside class directly or by class name as reference. But inside other class we can access it only by using class name as reference.
+
+e.g. class Fruit {
+  static int a = 10;
+  public static void main(String[] agrs) {
+    sop(a); //10
+    sop(Test.a); //10
+  }
+}
+
+class Test {
+  public static void main(String[] args) {
+    sop(Fruit.a);
+  }
+}
+
+2. A non-static variable can be accessed in same class or other class by using object reference.
+
+class Fruit {
+  int a = 10;
+  public static void main(String[] agrs) {
+    Fruit f = new Fruit();
+    sop(f.a); //10
+  }
+}
+
+class Test {
+  public static void main(String[] args) {
+    Fruit f = new Fruit();
+    sop(f.a);
+  }
+}
+
+3. A static or non-static variable will always have default value;
+
+e.g.
+  data-type       default value
+    int  ------------0
+    double ----------0.0
+    boolean ---------false
+    String ----------null
+    Array -----------nul
+
+4. A local variable does not have any default value. If it is accessed without initialization then it will give compile time error.
+
+e.g. public static void main(String[] args) {
+  int a;
+  sop(a); //this will throw error because we are accessing local variable without initialization.
+}

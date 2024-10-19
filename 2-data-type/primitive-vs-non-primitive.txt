@@ -1,0 +1,13 @@
+1 -> Primitives are single valued data but non-Primitives are multi valued data.
+
+2 -> Primitives are pre-defined data but non-Primitives are call user defined type data.
+
+3 -> All primitives are keywords but all non-primitives are class or interface.
+
+4 -> Primitives are fixed in size but non-primitives are not fixed in size.
+
+5 -> Primitives are not an object type data but non-primitives are object type data.
+
+6 -> Primitives are not a reference type data but non-primitives are reference type data.
+
+

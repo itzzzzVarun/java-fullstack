@@ -1,0 +1,6 @@
+If a variable is directly avaiable in class block and it is not declared by using 'static' then it is called non-static variable.
+
+
+class Vehicle {
+  int x = 30;
+}

@@ -1,0 +1,1 @@
+A data which referes to an object in call reference type data. Every non-primitive data is reference type data because they refer to an object.

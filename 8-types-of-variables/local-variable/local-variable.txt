@@ -1,0 +1,7 @@
+1> Local variable: If a variable is not directly declared inside class block then it is call a local variable.
+In another word if a variable is inside method block, constructor block or a block after class block then it is called a local variable.
+
+e.g. public static void main (String[] agrs) {
+    int x = 30;
+    int y = 40;
+}

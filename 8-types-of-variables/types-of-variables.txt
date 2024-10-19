@@ -1,0 +1,5 @@
+There are three types of variables:
+    1> Local variables
+    2> Static variables
+    3> Non-static variables
+

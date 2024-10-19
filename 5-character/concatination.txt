@@ -1,0 +1,4 @@
+Concatination is a process to attach a string value with any type of data. '+' operator is used as Concatination opearator.
+e.g. sop("A"+2) => A2
+     sop("abc"+30) => abc30
+     sop(40 + "xyz" + 32.5) => 40xyz32.5

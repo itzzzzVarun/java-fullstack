@@ -1,0 +1,5 @@
+syntax:-
+data-type var_name = values;
+e.g. int x = 238;
+
+4 byte of block will be allocation in memory and 'x' will point to that memory block.

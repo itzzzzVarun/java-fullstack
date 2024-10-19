@@ -1,0 +1,8 @@
+In the case of non-Primitive data type the size in not fix as primitive data type.
+
+It is dependent upto how much data we are storing in non-primitive data type using primitive data type.
+
+e.g. String a = "Mohan";
+    here 'a' is will take 10 bytes because 'a' has 5 characters and one character requires 2 byte of storage in memory so 5 characters will take 10 bytes.
+
+similarly int b[] = {1,2,3,4,5} will take 5  * 4 = 20 bytes as 1 integer will take 4 bytes.

@@ -1,0 +1,19 @@
+Scanner is a class available in java.util package which is used to take input from a user or input from a file.
+
+Steps to take user input:
+      1-> We have to import Scanner class of util package by using import keyword:
+                        import java.util.Scanner;
+          the import statement must be the first statement of the file.
+      2-> We have to create object of Scanner class to call non-static methods of Scanner class
+                        Scanner sc = new Scanner(System.in);
+      3-> We have to call different methods of Scanner class to accept different types of data
+                        -> byte = nextByte();
+                        -> short = nextShort();
+                        -> int = nextInt();
+                        -> float = nextFloat();
+                        -> long = nextLong();
+                        -> dounle = nextDouble();
+                        -> boolean = nextBoolean();
+                        -> String (only first word) = next();
+                        -> String (Complete sentance) = nextLine();
+                        -> char = next().charAt(index)

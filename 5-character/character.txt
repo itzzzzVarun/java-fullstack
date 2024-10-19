@@ -1,0 +1,7 @@
+Character -> 1> ASCII value 2> unicode value
+
+ASCII -> Every Character is provided with an unique +ve number which is call ASCII value.
+e.g. '@' -> 64
+
+Uncode value -> Every Character is assigned with a code in hexadecimal form which is call unicode value.
+e.g. 'F' -> 0064

@@ -1,0 +1,6 @@
+If a variable is directly inside the class block and it is declared by using 'static' keyword then it is called static variable.
+
+e.g.
+class Vehicle {
+  static int a = 30;
+}

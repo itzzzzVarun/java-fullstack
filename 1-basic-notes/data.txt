@@ -1,0 +1,9 @@
+Data: Data is a rawfact which describe the attribute of an entity(object).
+
+Attribute:- Properties/behaviour
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+Rules of E.F. Codd:
+
+1) The data entered into a cell must be a single value data.
+
+* we can not store data (Multiple data) in a single cell so, we have to create one more column to store data in a single-single cell.
+
+
+2) According to E.F. Codd, we can store the data in Multiple tables, If needed we can establish a connection between the table with the help of key attributes.
+
+
+3) In RDBMS, we store everything in form of table, including metadata.
+Metadata is like we click a photo in our phone, the data of our photo stores in our phone is called metadata.

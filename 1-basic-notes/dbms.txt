@@ -1,0 +1,19 @@
+DBMS:- It is a software which is used to maintain and manage the database.
+
+. Security and authorization are the 2 Important features that DBMS provide.
+. We use query language to communicate or interect with DBMS.
+. DBMS store the data in the form of fields.
+*Authentication or authorization are same thing*
+
+METADATA: The further details of the data is known as METADATA.
+          It is an auto-generated data.
+
+
+Meta table:- A table which contains meta data is known as meta table.
+
+* The data entered into a table can be validate into 2 step.
+
+i> By assigning datatype
+ii> By assigning constraints
+
+Note: Datatypes are mandotary where as constraints are optional.

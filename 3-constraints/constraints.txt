@@ -1,0 +1,42 @@
+It is a set of rule given to a column in order to validate a data.
+
+It is a rule given to a column for validation.
+
+
+Type of constrains:
+            1) UNIQUE
+            2) NOT NULL
+            3) CHECK
+            4) PRIMARY KEY
+            5) Forign KEY
+
+
+UNIQUE: It is used to avoid duplicate values into the column.
+
+NOT NULL: It is use to avoid null.
+
+CHECK: It is an extra validation with a condition if the condition is satisfied then the value is accepted, else rejected.
+
+Note: 1.We can use multiple constrains in one column.
+      2. We can use multiple check constrains in one column.
+
+
+
+PRIMARY KEY: It is use to identify a record uniquely from the table.
+
+    characteristics of PRIMARY KEY: 1. PRIMARY KEY wont allow duplicate or repeated value.
+                                    2. PRIMARY KEY can not accept null.
+                                    3. PRIMARY KEY is a combition of unique and not null.
+                                    4. We can have only one PRIMARY KEY in the table.
+
+Forign KEY: It is use to stablish a connection between a table.
+
+    characteristics of Forign key: 1. Forign key accept repeated or duplicate value.
+                                   2. Forign key accept null.
+                                   3. It is not a combition of unique and not null.
+                                   4. We can have more than one Forign key in the table.
+                                   Note: For an attribute to become a Forign key that it must be PRIMARY KEY in its own table.
+
+Note: In order to stablish a connection between two tables two steps are required
+      1st step: Add a column
+      2nd step: Assign Forign key to it. 

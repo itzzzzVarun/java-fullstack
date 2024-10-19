@@ -1,0 +1,67 @@
+datatype is used to specify which type of data or which kind of data that will be store in a particular memory location.
+
+type of data type:
+    1> CHAR
+    2> VARCHAR
+    3> DATE
+    4> NUMBER
+    5> LARGE OBJECT
+            i> CLOB
+            ii> BLOB
+
+CHAR:- 1. It is used to store characters such as 'A-Z', 'a-z', '0-9', '@#/...' and Alphanumberic number.
+       2. Character must always be inclosed within a single quotes.
+       3. Whenever we use char datatype, we must mention size.
+       e.g. syntax: CHAR(SIZE), SIZE is up to 2000 characters
+       4. char follows fixed length memory allocation.
+
+       [M] [A] [C] [H] [A]  [] [] [] [] []
+     |     used memory    ||  waste memory |
+
+VARCHAR:- 1. It is also use to store character such as 'A-Z', 'a-z', '0-9', '@#/...' and Alphanumberic number.
+          2. Character must always be inclosed within a single quotes.
+          3. Whenever we use VARCHAR datatype, we must mention size.
+          e.g. syntax: VARCHAR(SIZE), SIZE is upto 2000 characters
+          4. VARCHAR follows variable length memory allocation.
+
+                 [M] [A] [C] [H] [A]  [] [] [] [] []
+                |     used memory   ||  free memory |
+    NOTE: There is another version of VARCHAR called VARCHAR2 which has size of upto 4000.
+
+DATE:- 1. It is used to store dates in a particular format.
+        e.g. syntax DATE
+        format: oracle specified format-> 1> DD-MON-YYYY  2> DD-MON-YY
+
+NUMBER:- It is use store numeric values.
+          e.g. syntax NUMBER(P, [S]), P = precision, S = scale (optional), range of precision is 1 to 38 (No default value), -87 to 127 (default value is 0)
+          Precesion:
+          1. precision is use to store integer values
+          2. range of precision is 1 to 38
+          3. no default value
+
+          Scale:
+          1. Scale is use to store decimal or point value.
+          2. Range of scale is -87 to 127.
+          3. 0 is the default value of scale.
+
+          e.g. NUMBER(4) --> [] [] [] []   we can store -9999 to +9999 in this memory block.
+                           |memory block|
+               
+               NUMBER(4,2) ---> [] [] [] []   we can store -99.99 to +99.99 in this memory block.
+                              |memory block| 
+
+               NUMBER(2,4) ---> [] [] [] [] we can store -00.99 to +00.99 in this memory block.
+                              |memory block|
+                
+                NUMBER(4,-1) ---> [] [] [] [] [] (because 4+1=5) we can store -09999 to +09999 in this memory block.
+                                | memory block  |
+          
+LARGE OBJECT:- It is use to store large or huge amount of data.
+
+                1. CLOB:- It is use to store large amount of characters (more than 4000).
+                e.g. syntax  CLOB
+                2. We can store up to 4GB.
+                3. CLOB stands for Character Large OBJECT
+                2. BLOB:- It is use to store binary value of multimedia data.
+                e.g. syntax BLOB
+                2. We can store up to 4GB.

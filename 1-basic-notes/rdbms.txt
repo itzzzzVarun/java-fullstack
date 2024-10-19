@@ -1,0 +1,15 @@
+RDBMS:- It stands for Relational Database Management System. It is a type of a DBMS software which is used to maintain and manage our database.
+
+.S/A provide two Important features that RDBMS provide:
+    1. We use SQL to communicate or interect which RDBMS.
+    2. RDBMS stores the data in the form of table.
+
+
+#Relational Model: Relational model was designed by E.F Codd(Edger Frank Codd).
+. In Relational model we can store the data in the form of table.
+. Any DBMS which follows Relational model becomes RDBMS.
+
+        DBMS ---> R. model ---> RDBMS
+  
+  Any DBMS which follows E.f Coll Rules, it becomes RDBMS.
+        DBMS ---> E.F.Codd ---> RDBMS

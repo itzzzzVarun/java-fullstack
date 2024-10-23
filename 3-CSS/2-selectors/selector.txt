@@ -1,0 +1,8 @@
+selector: Selector is used to target the html element so that we can apply the properties.
+
+
+Property: This is the property we want to apply on html element that we have targeted.
+
+e.g. Selector {
+        property: value;
+      }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combinator Selector</title>
+  <style>
+    article p {
+      color: red;
+      font-size: 30px;
+    }
+
+    article>p{
+      color: purple;
+    }
+
+    article>main>p {
+      color: blue;
+    }
+
+    article .nested-P {
+      font-size: 50px;
+      color: mediumorchid;
+    }
+
+    article+div {
+      font-size: 60px;
+      color: green;
+    }
+
+    article+div+span {
+      font-size: 100px;
+      color:orange
+    }
+
+    article~p {
+      font-size: 130px;
+      color: blueviolet;
+    }
+
+    article~section {
+      font-size: 80px;
+      color: aqua;
+    }
+
+    article~.g-s-p {
+      font-size: 100px;
+      color: yellowgreen;
+    }
+  </style>
+</head>
+<body>
+  <article>
+    <p>Direct child 1</p>
+    <p>Direct child 2</p>
+    <main>
+      <p>Indirect child 1</p>
+      <section>
+        <aside>
+          <p class="nested-P">Nested paragraph</p>
+        </aside>
+      </section>
+    </main>
+  </article>
+
+  <article>
+    <main>
+      <p>Indirect child</p>
+    </main>
+  </article>
+
+  <div>immediate sibling</div>
+  <span> Gereral sibling span</span>
+  <section>Gereral sibling section </section>
+  <p>Gereral sibling paragraph-1</p>
+  <p class="g-s-p">Gereral sibling paragraph-2</p>
+</body>
+</html>

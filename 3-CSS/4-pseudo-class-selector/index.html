@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo class selector</title>
+  <style>
+    article>p:first-of-type {
+      font-size: 100px;
+      color: orange;
+    }
+
+    article>p:last-of-type {
+      font-size: 100px;
+      color: red;
+    }
+
+    article>:nth-child(3) {
+      font-size: 150px;
+      color: magenta;
+    }
+
+    article>p:nth-last-child(3) {
+      font-size: 60px;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <article>
+    <p>paragrapg-1</p>
+    <p>paragrapg-2</p>
+    <p>paragrapg-3</p>
+    <p>paragrapg-4</p>
+    <p>paragrapg-5</p>
+    <p>paragrapg-6</p>
+    <p>paragrapg-7</p>
+    <p>paragrapg-8</p>
+    <p>paragrapg-9</p>
+  </article>
+</body>
+</html>

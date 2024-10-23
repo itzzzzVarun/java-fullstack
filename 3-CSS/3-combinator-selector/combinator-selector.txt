@@ -1,0 +1,7 @@
+1. space is use to select all the child elements, direct child as well as indirect child.
+
+2. Parent tag then '>' then child element, this is how we can only select direct childs of a parent tag.
+
+3. Immediate sibling selector (+): To target Immediate sibling of an element (the sibling must be anywhere below of that element) we use '+'. 
+
+4. Immediate sibling selector (~): To target general sibling of an element (the sibling must be anywhere below of that element) we use '~'.

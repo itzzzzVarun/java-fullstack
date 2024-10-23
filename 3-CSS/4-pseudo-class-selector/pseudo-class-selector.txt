@@ -1,0 +1,12 @@
+1. ':' To select first child using pseudo class selector, syntax is,  
+
+                                                      parent>element:first-child {
+    
+                                                                               }
+
+
+2. ':' To select last child using pseudo class selector, syntax is, 
+
+                                                   parent>element:last-child {
+    
+                                                                               }

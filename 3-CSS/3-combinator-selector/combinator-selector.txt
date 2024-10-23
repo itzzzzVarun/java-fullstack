@@ -4,4 +4,4 @@
 
 3. Immediate sibling selector (+): To target Immediate sibling of an element (the sibling must be anywhere below of that element) we use '+'. 
 
-4. Immediate sibling selector (~): To target general sibling of an element (the sibling must be anywhere below of that element) we use '~'.
+4. Gereral sibling selector (~): To target general sibling of an element (the sibling must be anywhere below of that element) we use '~'.

@@ -21,4 +21,13 @@ syntax: SELECT * /[DISTINCT]COLNAME/EXPRESSION[ALIAS];
 PROJECTION:- It is a process of retrieving the data by selecting only column is knows as projection.
 syntax: SELECT COLNAME from table_name;
 
+    DISTINCT:- It is use to remove the duplicate or repeated value from the result table.
+        i>  Distinct claues has to be used as the first argument to select claues.
+        ii> We can use multiple column as an argument to Distinct claues, it will remove the combination of columns in which the records are duplicated.
 
+    EXPRESSION:- Any statement which give us some result is called EXPRESSION. It is an combination of operand and operator.
+
+    ALIAS:- It is use to give an alternative name to a column or an EXPRESSION.
+            We can give alias in two ways:- 1st-> using 'as' keyword.
+                                            2nd-> without using 'as' keyword.      
+            In order to give space between multiple words we are using two thinghs, 1st: '_' and 2nd: "". 

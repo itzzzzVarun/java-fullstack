@@ -1,0 +1,24 @@
+DQL (Data Query Language) : DQL is use to read or retrieve the data from the database.
+
+We have four sub-statements:
+
+1. select
+2. projection
+3. selection
+4. join
+
+
+SELECT:- It is use to retrieve the data from the table and display it.
+
+syntax: SELECT * /[DISTINCT]COLNAME/EXPRESSION[ALIAS];
+ FROM table_name
+
+    '*' :- It is use to select all the column present in the table.
+
+    Order of execution: 1: FROM
+                    2: SELECT
+
+PROJECTION:- It is a process of retrieving the data by selecting only column is knows as projection.
+syntax: SELECT COLNAME from table_name;
+
+

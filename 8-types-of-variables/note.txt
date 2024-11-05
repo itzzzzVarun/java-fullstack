@@ -1,3 +1,6 @@
+Outside the block a local variable is not accssible because once a block is completed the varibale is erased from memory by garbage collector.
+
+
 A local variable can not be static or non-static, It is only a local variable.
 
 class Fruit {

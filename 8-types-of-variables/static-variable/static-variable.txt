@@ -1,6 +1,20 @@
 If a variable is directly inside the class block and it is declared by using 'static' keyword then it is called static variable.
 
+A static variable can be access directly in the same class or by using clss name as reference.
+
+Inside other class a static variable can be accessed by using only class name as reference.
+
 e.g.
 class Vehicle {
   static int a = 30;
+  public static void main(String[] agrs) {
+    sop(a);
+    sop(Vehicle.a);
+  }
+}
+
+class Demo {
+  public static void main(String[] agrs) {
+    sop(Vehicle.a);
+  }
 }

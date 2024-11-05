@@ -1,5 +1,6 @@
 If a variable is directly avaiable in class block and it is not declared by using 'static' then it is called non-static variable.
 
+A non-static variable can be accessed inside same class or inside another class only by using object reference 
 
 class Vehicle {
   int x = 30;

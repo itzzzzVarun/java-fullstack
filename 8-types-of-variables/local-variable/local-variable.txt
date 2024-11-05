@@ -1,6 +1,8 @@
 1> Local variable: If a variable is not directly declared inside class block then it is call a local variable.
 In another word if a variable is inside method block, constructor block or a block after class block then it is called a local variable.
 
+2. Local variable do not has a default value. If we want to access a local variable without define its value then it will give compilation error.
+
 e.g. public static void main (String[] agrs) {
     int x = 30;
     int y = 40;

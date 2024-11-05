@@ -30,4 +30,19 @@ syntax: SELECT COLNAME from table_name;
     ALIAS:- It is use to give an alternative name to a column or an EXPRESSION.
             We can give alias in two ways:- 1st-> using 'as' keyword.
                                             2nd-> without using 'as' keyword.      
-            In order to give space between multiple words we are using two thinghs, 1st: '_' and 2nd: "". 
+            In order to give space between multiple words we are using two thinghs, 1st: '_' and 2nd: "".
+
+    
+SELECTION:- It is process of retrieving the data by selecting both the rows and columns is known as selection.
+            syntax: SELECT  */[DISTINCT]col_name/EXPRESSION[ALIAS] FROM table_name WHERE <filter-record-condition>
+            order of execution: 1. FROM
+                                2. WHERE
+                                3. SELECT
+            WHERE claues: It is use to filter the records (WHERE claues runs row by row)
+                characteristics of WHERE claues: 1. WHERE claues executes row by row.
+                                                 2. WHERE claues executes after the execution of FROM claues.
+                                                 3. We can pass multiple conditions in WHERE claues using logical operator.
+                                                 4. syntax of writing condition: col_name operator values;
+
+
+

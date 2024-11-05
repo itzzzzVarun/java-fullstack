@@ -1,0 +1,10 @@
+Method:- A method is a block of instructions to perform some specific task. 
+
+Important points:
+                  1. A method is a class member so it should be design inside the class block.
+                  2. We can design multiple methods inside a class which can be before main method or after main method.
+                  3. When a program starts execution then always main method starts the execution and the other method will execute only when it is called.
+                  4. a method is called by using its method signature. e.g. test()
+                  5. A method can be called multiple times and when it is called then it will execute completely.
+                  6. To execute a method method call should be made from main method.
+                  7. Any method can call other method but it will execute only when call is made from main method.

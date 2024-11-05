@@ -1,0 +1,70 @@
+span {
+  display: inline-block;
+  font-size: 100px;
+}
+
+span::first-letter {
+  color: red;
+  font-style: italic;
+}
+
+p::first-line {
+  color:tomato;
+  font-size: 40px;
+  font-style: italic;
+}
+
+p::selection {
+  background-color: green;
+  color: white;
+}
+
+span::selection {
+  background-color: yellow;
+  color: white;
+}
+
+/* ul>li::marker {
+  content: "😂 ";
+  font-weight: bold;
+}
+
+ol>li:nth-child(odd)::marker {
+  content: "😍 ";
+}
+
+ol>li:nth-child(even)::marker {
+  content: "😒 ";
+}
+
+ol>li:nth-last-child(2)::marker, ol>li:nth-last-child(4)::marker {
+  content: "🤢 ";
+}
+
+ol>li:nth-last-child(1)::marker {
+  content: "🤮 ";
+} */
+
+ul>li:nth-child(odd)::marker {
+  content: "❤️ ";
+}
+
+ul>li:nth-child(even)::marker {
+  content: "🖤 ";
+}
+
+div {
+  font-size: 100px;
+  color: white;
+  background-color: black;
+}
+
+div::before {
+  content: "Jai ";
+  color: green;
+}
+
+div::after {
+  content: " Ram 🙏";
+  color: orange;
+}

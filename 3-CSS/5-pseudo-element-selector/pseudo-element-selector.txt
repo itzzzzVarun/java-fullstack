@@ -1,0 +1,14 @@
+We use :: for pseudo element selector.
+
+There are 6 types of selector:-
+1> ::first-letter
+
+2> ::first-line
+
+3> ::Selection
+
+4> ::marker
+
+5> ::before
+
+6> ::after

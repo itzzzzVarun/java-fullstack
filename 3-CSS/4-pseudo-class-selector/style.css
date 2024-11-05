@@ -1,0 +1,60 @@
+
+
+nav{ 
+  height: 200px;
+  width: 100%;
+  background-color: black;
+}
+
+a {
+  padding: 0px 40px;
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+/* nav a:first-child:hover~.last{
+  background-color: red;
+} */
+
+input {
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+}
+
+nav input:focus {
+  caret-color: red;
+  background-color: aqua;
+  outline: yellow solid 2px;
+}
+
+.gender {
+  font-size: 40px;
+}
+
+.gender input {
+  accent-color: red;
+}
+
+
+.where-selector {
+  height: 200px;
+  width: 200px;
+}
+
+:is(h1,h2,h3) {
+  background-color: red;
+}
+
+.where-selector:has(p) {
+  background-color: red;
+}
+
+.not-selector:has(p:not(.p1)) {
+  background-color: blue;
+}

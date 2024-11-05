@@ -10,3 +10,6 @@
                                                    parent>element:last-child {
     
                                                                                }
+
+
+4. :is and :where select works same but :where selector has less priority than :is selector.

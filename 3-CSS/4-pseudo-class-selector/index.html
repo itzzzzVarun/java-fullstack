@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pseudo class selector</title>
+  <link rel="stylesheet" href="./style.css">
   <style>
     article>p:first-of-type {
       font-size: 100px;
@@ -27,16 +28,67 @@
   </style>
 </head>
 <body>
+
+  <nav>
+    <a href="#" class="first">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#" class="last">Services</a>
+    <input type="search" placeholder="search here...">
+    <button>Search</button>
+  </nav>
+
+  <div class="gender">
+    Male <input type="radio" name="gender" id="">
+    Female <input type="radio" name="gender" id="">
+    Others <input type="radio" name="gender" id="">
+  </div>
   <article>
-    <p>paragrapg-1</p>
-    <p>paragrapg-2</p>
-    <p>paragrapg-3</p>
-    <p>paragrapg-4</p>
-    <p>paragrapg-5</p>
-    <p>paragrapg-6</p>
-    <p>paragrapg-7</p>
-    <p>paragrapg-8</p>
-    <p>paragrapg-9</p>
+    <p>paragraph-1</p>
+    <p>paragraph-2</p>
+    <p>paragraph-3</p>
+    <p>paragraph-4</p>
+    <p>paragraph-5</p>
+    <p>paragraph-6</p>
+    <p>paragraph-7</p>
+    <p>paragraph-8</p>
+    <p>paragraph-9</p>
   </article>
+
+  <div class="is-selector">
+    <h1>Heading 1</h1>
+    <h2>Heading 1</h2>
+    <h3>Heading 1</h3>
+    <h4>Heading 1</h4>
+    <h5>Heading 1</h5>
+    <h6>Heading 1</h6>
+  </div>  
+  <div class="where-selector">
+    <p>Learning ':where' selector</p>
+  </div>
+
+  <divc class="not-selector">
+    <p class="p1">paragraph-1</p>
+    <p class="p2">paragraph-2</p>
+  </div>
 </body>
 </html>
+
+
+<ol>
+  <li>:first-child</li>
+  <li>:last-child</li>
+  <li>:nth-child</li>
+  <li>:nth-last-child</li>
+  <li>:first-of-child</li>
+  <li>:nth-last-of-child</li>
+  <li>:active</li>
+  <li>:link</li>
+  <li>:visited</li>
+  <li>:hover</li>
+  <li>:focus</li>
+  <li>:is</li>
+  <li>:has</li>
+  <li>:where</li>
+  <li>:not</li>
+</ol>

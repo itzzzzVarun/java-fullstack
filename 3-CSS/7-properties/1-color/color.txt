@@ -1,0 +1,44 @@
+We can define color property in multiple ways but most popular ones are:-
+
+1. color: "color name"
+
+2. color: hexa-decimal value of color
+    color: #0-f 0-f  0-f 0-f  0-f 0-f
+              red     green    blue
+
+
+red:- #ff 00 00
+
+green:- #00 ff 00
+
+blue:- #00 00 ff
+
+black:- #00 00 00
+
+white:- #ff ff ff 
+
+grey:- #77 77 77
+
+
+For-trasparancy:
+  color # 00   00   00   00
+         red green blue trasparancy
+                         ff - Opaque
+                         00 - trasparancy
+
+
+recommended website for amezing color-combination:
+  https://www.coolers.co/
+
+3. color: rgb(red (0-255), green (0-255), blue (0-255))
+   color: rgba(red (0-255), green (0-255), blue (0-255), alpha/trasparancy(0-1))
+
+
+
+4. color: hsl(Hue (0-360), Saturation (0-100%), Lightness)
+    Lightness - 
+                50% -       normal color
+                above 50% - Light color
+                below 50% - Dark color
+
+5. color: hwb(Hue (0-360), Whiteness (0-100%), Blackness (0-100%)) 

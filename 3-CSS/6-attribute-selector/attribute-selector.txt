@@ -1,0 +1,17 @@
+Attribute Selector:- This Selector is use to target a html element by its Attribute.
+
+syntax:- 
+1. tagname[Attribute name] {
+
+}
+
+2. tagname[Attribute name = ""] 
+
+To target a html element by one of it Attribute's prefix value:-
+    tagname[Attribute^="prefix value"]
+
+To target a html element by one of it Attribute's middle values:-
+    tagname[Attribute*="middle value"]
+
+To target a html element by one of it Attribute's suffix value:-
+    tagname[Attribute$="suffix value"]

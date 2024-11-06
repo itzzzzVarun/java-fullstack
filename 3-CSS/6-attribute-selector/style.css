@@ -1,0 +1,47 @@
+div.container {
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+}
+
+div {
+  text-align: center;
+}
+
+div[title] {
+  width: 400px;
+  height: 400px ;
+}
+
+div[title = "first-div"] {
+  background-color: red;
+}
+
+div[title = "second-div"] {
+  background-color: yellow;
+}
+
+div {
+  font-size: 60px;
+}
+
+div[title = "flex"] {
+  width: 400px;
+  height: 400px;
+}
+
+div[title ^= "p-1"] {
+  color: red;
+}
+
+div[title $="div-1"] {
+  background-color: blue;
+}
+
+div[title $="div-2"] {
+  background-color: tomato;
+}
+
+div[title $="div-3"] {
+  background-color: blueviolet;
+}

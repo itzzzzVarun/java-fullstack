@@ -8,3 +8,10 @@ Important points:
                   5. A method can be called multiple times and when it is called then it will execute completely.
                   6. To execute a method method call should be made from main method.
                   7. Any method can call other method but it will execute only when call is made from main method.
+                  8. If a method is static then it can be call by main method directly or by using class name as reference.
+                  9. If a method is non-static then it can be called inside main method by using only object name reference.
+                  10. main method is a static type method so main method is called by JVM at run time by using class reference.
+                  java Car.main(), here main() method of Car class gets called by using class reference.
+                  11. String[] args of main method is used to support a feature called command line argument. From command line, we can provide different arguments which is accepted by main method in the form of String type array.
+                  Example of calling main method and passing values from command line:-
+                  java Car mohan sohan 12 18.3 

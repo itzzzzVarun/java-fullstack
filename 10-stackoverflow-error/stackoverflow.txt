@@ -1,0 +1,1 @@
+stack area will be fixed in size so, if large number of frames are created in stack area then it will cause an exception called stackover error. 

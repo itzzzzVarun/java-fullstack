@@ -15,3 +15,7 @@ Important points:
                   11. String[] args of main method is used to support a feature called command line argument. From command line, we can provide different arguments which is accepted by main method in the form of String type array.
                   Example of calling main method and passing values from command line:-
                   java Car mohan sohan 12 18.3 
+                  12. main method is made static so that it can be call by JVM at run time only by using class reference.
+                  13. If main method is not static then JVM will require object reference to call main method. To avoid object creation by JVM the main method is made static.
+                  14. When program starts its execution then execution is started in a special area called stack area. In stack area LIFO machanism is followed. The first frame is created for main method and after that other frames are created on top of the main frame.
+                  15. stack area will be fixed in size so, if large number of frames are created in stack area then it will cause an exception called stackover error. 

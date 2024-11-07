@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.container-1 {
+   display: flex;
+   gap: 10px;
+}
+
+/*color*/
+.my-gradient-1 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( to bottom, red, yellow, magenta);
+}
+
+
+.my-gradient-2 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( to bottom right, red, yellow, magenta);
+}
+
+
+.my-gradient-3 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( to right, red, yellow, magenta);
+}
+
+.my-gradient-4 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( to left, red, yellow, magenta);
+}
+
+.my-gradient-5 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( to top, red, yellow, magenta);
+}
+
+.container-2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/*degree*/
+.my-gradient-6 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( 90deg, green, blue, orange);
+}
+
+.my-gradient-7 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( 45deg, green, blue, orange);
+}
+
+.my-gradient-8 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( 270deg, green, blue, orange);
+}
+
+.my-gradient-9 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( 180deg, green, blue, orange);
+}
+
+.my-gradient-10 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( 0deg, green, blue, orange);
+}
+
+/*turn*/
+.container-3 {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.my-gradient-11 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( 1turn, tomato, cyan, magenta);
+}
+
+.my-gradient-12 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( 0.5turn, tomato, cyan, magenta);
+}

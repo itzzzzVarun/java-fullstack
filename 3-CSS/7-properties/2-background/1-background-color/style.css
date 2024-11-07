@@ -1,0 +1,17 @@
+
+
+body {
+  width: 100vw; /*1536px*/
+  height: 100vh;
+}
+
+main {
+  height: 500px;
+  background-color: lightcoral;
+}
+
+main div {
+  height: 50%; /*250px*/
+   width: 40%;  /* 614.4px */
+  background-color: cyan;
+}

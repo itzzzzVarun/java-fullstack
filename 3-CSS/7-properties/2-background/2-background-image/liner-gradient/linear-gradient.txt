@@ -1,0 +1,25 @@
+linear_gradient(direction(optional), color-1, color-2, ......., color-n)
+
+You have to write atleast two color values.
+
+direction: i) standard values
+              to bottom (default)
+              to right
+              to top
+              to left
+              to top left
+              to tot right
+              to bottom right
+              to bottom right
+          ii) degree
+              180 degree = to bottom
+              0 degree = to top
+              90 degree = to right
+              270 degree = to left
+              45 degree = to top right
+              135 degree = to bottom right
+              225 degree = to bottom left
+              315 degree = to top left
+          iii) turn
+              1turn
+              0.5turn

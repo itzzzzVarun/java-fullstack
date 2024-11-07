@@ -1,0 +1,4 @@
+background-image: url();
+                  linear_gradient(direction(optional), color-1, color-2, ...., color-n)
+                  radial_gradient()
+                  conic_gradient()

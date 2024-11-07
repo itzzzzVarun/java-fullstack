@@ -1,0 +1,9 @@
+backgroud-color : color name;
+
+backgroud-color : hexadecimal;
+
+backgroud-color : rgba();
+
+backgroud-color : hsl();
+
+backgroud-color : hwb();

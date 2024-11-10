@@ -1,0 +1,25 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  align-content: center;
+}
+
+.container {
+  margin: auto;
+  width: 600px;
+  height: 450px;
+  border: 2px solid black;
+  background-image:linear-gradient(to bottom, rgb(0, 242, 96, 0.34) 20%, rgb(5, 74, 117, 0.34), transparent), url('https://www.hindustantimes.com/ht-img/img/2023/05/18/1600x900/gauri_khan_srk_1684400142258_1684400161766.jpg');
+  background-size: 100% 100%;
+  /* background-repeat: no-repeat;
+  background-position: top 50px left 75px; */
+}

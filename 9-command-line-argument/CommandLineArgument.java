@@ -8,7 +8,8 @@ class CommandLineArgument {
     // case,
     // to avoid exception have to provide atleast two values from command line.
     System.out.println("First element of args is " + args[0]);
-    System.out.println("First element of args is " + args[1]);
+    System.out.println("Second element of args is " + args[1]);
+    System.out.println("Third element of args is " + args[2]);
     System.out.println("Program ends.");
   }
 }

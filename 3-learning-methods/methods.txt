@@ -6,7 +6,7 @@ Important points:
                   3. When a program starts execution then always main method starts the execution and the other method will execute only when it is called.
                   4. a method is called by using its method signature. e.g. test()
                   5. A method can be called multiple times and when it is called then it will execute completely.
-                  6. To execute a method method call should be made from main method.
+                  6. To execute a method, method call should be made from main method.
                   7. Any method can call other method but it will execute only when call is made from main method.
                   8. If a method is static then it can be call by main method directly or by using class name as reference.
                   9. If a method is non-static then it can be called inside main method by using only object name reference.

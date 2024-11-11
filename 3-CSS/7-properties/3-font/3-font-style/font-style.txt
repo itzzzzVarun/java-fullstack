@@ -1,0 +1,5 @@
+it is use to apply different styling on the font
+
+1> normal (default)
+2> italic
+3> oblique (35deg)

@@ -1,0 +1,3 @@
+it can take two values:
+  1> scroll : the background attachment will be scrollable.
+  2> fixed  : the background attachment will be not scrollable or fixed.

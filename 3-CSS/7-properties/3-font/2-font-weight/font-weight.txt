@@ -1,0 +1,17 @@
+it is use to increase of decrease the lightness of font.
+
+1> normal
+2> bold
+3> light
+4> bolder
+5> lighter
+
+1> 100 (lighter)
+2> 200 (lighter)
+3> 300 (light)
+4> 400 (normal)
+5> 500 (semi-bold)
+6> 600 (semi-bold)
+7> 700 (bolder)
+8> 800 (bolder)
+9> 900

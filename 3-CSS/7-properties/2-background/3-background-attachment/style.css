@@ -1,0 +1,42 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+} 
+body {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+section {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.section-1 {
+  background-image: url('https://purepng.com/public/uploads/large/purepng.com-ford-mustang-red-carcarcarsvehiclevehiclestransport-5615211266939gqkz.png');
+  background-position: 100% 100%;
+}
+
+.section-2 {
+  background-image: url('https://purepng.com/public/uploads/large/purepng.com-red-mclaren-650s-can-am-race-carcarvehicletransportmclarenrace-car-961524645159nwked.png');
+  background-position: 100% 100%;
+  background-attachment:fixed ;
+}
+
+
+.section-3 {
+  background-image: url('https://www.pngall.com/wp-content/uploads/5/Vehicle-PNG-Clipart.png');
+  background-position: 100% 100%; 
+}
+
+.section-4 {
+  background-image: url('https://purepng.com/public/uploads/large/purepng.com-ferrari-carcarsferrarigallop-961524670047nmpto.png');
+  background-position: 100% 100%;
+  background-attachment: fixed;
+}

@@ -1,0 +1,10 @@
+Font-family is also way to write fonts in different ways of font-outlook.
+
+Two types of font-families
+1> Generic
+  i> Serif
+  ii> sans sarif
+  iii> display
+  iv> Monospace
+  v> Handwriting
+2> Specific : These are diffrenet font-families which are derived from Generic font-families 

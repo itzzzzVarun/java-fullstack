@@ -1,0 +1,37 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+} 
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 80%;
+  height: 70%;
+  background-color: aqua;
+  padding: 50px 100px;
+}
+
+section h1 {
+  font-size: 60px;
+  color: #000000;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+section p {
+  font-size: 28px;
+  color: #000000;
+  font-style: italic;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

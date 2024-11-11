@@ -1,0 +1,2 @@
+it is use to increase the size of font.
+default: 16px

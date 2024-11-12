@@ -4,4 +4,4 @@ The basic operation that can be performed on a database are CRUD operation
       C --> Create/Insert
       R --> Read/Retrieve
       U --> Update/Modify
-      C --> Delete/Draw
+      D --> Delete/Draw

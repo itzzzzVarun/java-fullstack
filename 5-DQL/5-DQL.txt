@@ -46,3 +46,4 @@ SELECTION:- It is process of retrieving the data by selecting both the rows and 
 
 
 
+insert into emp(empno, ename,job, mgr, hiredate, sal, comm, deptno) values(7839, 'king', 'president', null, '1981-11-17', 5000, null, 10);

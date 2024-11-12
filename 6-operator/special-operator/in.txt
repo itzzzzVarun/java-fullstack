@@ -1,0 +1,8 @@
+in operator:-
+It is multi-valued operator which can accept multiple values at right hand side.
+
+syntax: col_name IN (v1, v2, v3, v4...);
+
+Query:
+
+select E_name, dept_id from employee where dept_id IN(10, 20);

@@ -1,0 +1,22 @@
+Operators are the symbol which is used to performed  some specific task.
+
+=> There are seven types of Operators:-
+    1> Arthmetic Operator (+, -, *, /...)
+    2> Relational Operator (>, <, <=, >=, =)
+    3> Comparision Operator (=, !=)
+    4> Concat Operator (||)
+    5> Logical Operator (AND, OR, NOT)
+    6> Special Operator 
+        i>   IN 
+        ii>  NOT IN
+        iii> between
+        iv>  not between
+        v>   is
+        vi>  is not
+        vii> like
+        viii> not like 
+    7> SubQUERY Operator
+      i> all
+      ii> any
+      iii> exists
+      iv> not exists

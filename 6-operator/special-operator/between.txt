@@ -1,0 +1,9 @@
+BETWEEN: It is used when there is range of values
+
+syntax:- col_name between(start, end);
+
+Query:- 
+  select * from employee where salary between 100 and 1000;
+
+Note: i> BETWEEN operator includes the ranges.
+      ii> Whenever range word mentioned we should not increase or decrease our value.

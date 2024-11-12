@@ -10,3 +10,9 @@ Rules of E.F. Codd:
 
 3) In RDBMS, we store everything in form of table, including metadata.
 Metadata is like we click a photo in our phone, the data of our photo stores in our phone is called metadata.
+
+4) The data entered into a table will be validate into two steps:-
+      i> By assigning data type
+      ii> By assigning contraints
+
+Note: Datatypes are mandatory where as contraints are optional.

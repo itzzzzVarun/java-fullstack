@@ -1,0 +1,8 @@
+NOT IN operator:-
+It is multi-valued operator which can accept multiple values at right hand side. It is similar to IN operator, instead of selecting, it rejects the values;
+
+syntax: col_name NOT IN (v1, v2, v3,..., vn)
+
+Query:
+
+select E_name, empid, salary from employee where empid not in(101, 107);

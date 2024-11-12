@@ -1,26 +1,26 @@
-// 15. Write a java program to gererate n terms of fibonacci series.
+//nth tern of fibonacci series.
 
 import java.util.Scanner;
 
-public class Q15 {
+public class Q18 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter a number...");
     int n = sc.nextInt();
     sc.close();
-    fib(n);
+    int res = fib(n);
+    System.out.println(res);
   }
 
-  static void fib(int n) {
+  static int fib(int n) {
     int zero = 0;
     int one = 1;
-    System.out.print(zero + " ");
-    System.out.print(one + " ");
+    int ans = 0;
     for (int i = 2; i <= n; i++) {
-      int two = zero + one;
-      System.out.print(two + " ");
+      ans = zero + one;
       zero = one;
-      one = two;
+      one = ans;
     }
+    return ans;
   }
 }

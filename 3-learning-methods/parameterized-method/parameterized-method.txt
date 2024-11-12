@@ -1,0 +1,1 @@
+if a method takes different arguments at its parameter then it is called parameterized method.

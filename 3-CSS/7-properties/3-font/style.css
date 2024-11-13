@@ -35,3 +35,11 @@ section p {
   font-style: italic;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+section h1::selection {
+  background-color: green;
+}
+
+section p::selection{
+  background-color: yellow;
+}

@@ -1,0 +1,65 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding:0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+}
+
+section {
+  width: 100%;
+  height: 80%;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+section article {
+  width: 60%;
+  height: 60%;
+  background-color: white;
+  padding-inline: 25px;
+  text-align: center;
+}
+
+section article h1 {
+  font-size: 45px;
+  /* text-decoration:2px underline red; */
+  /* text-underline-offset: 15px; */
+  /* text-underline-position: under; */
+  text-align: center;
+  /* text-decoration:2px wavy overline red; */
+  text-decoration: 2px wavy underline overline red;
+  margin-block: 15px;
+  letter-spacing: 15px;
+  -webkit-text-stroke: 2px #000000;
+  color: transparent;
+}
+
+section article p {
+  font-size: 20px;
+  text-align: justify;
+  background-color: orange;
+  margin-bottom: 15px;
+  line-height: 25px;
+  
+}
+
+section article a {
+  background-color: black;
+  padding: 10px 25px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2.5px;
+  word-spacing: 20px;
+}

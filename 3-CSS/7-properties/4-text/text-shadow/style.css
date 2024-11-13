@@ -1,0 +1,27 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding:0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background-color: #000000;
+}
+
+div {
+  font-size: 80px;
+  color: white;
+  text-shadow: 425px 0px 0px green,
+               -425px 0px 0px orange,
+               0px -200px 0px orange,
+               0px 200px 0px green;
+
+
+}

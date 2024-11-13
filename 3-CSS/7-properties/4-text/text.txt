@@ -1,0 +1,33 @@
+text property:
+  i>    text-property
+        start
+        end
+        center
+        justify
+        right
+        left
+  ii>   text-transformation
+        none
+        uppercase
+        lowercase
+        capitalize
+  iii>  text-decoration
+        underline
+        overline
+        line-through
+        none
+  iv>   text-underline-offset
+        value px, %, rem
+  v>    text-underline-position
+        auto
+        under
+  vi>   line-height
+        value px
+  vii>  letter-spacing
+        value px
+  viii> word-spacing
+        value px
+  ix>   text-stroke
+        value px color
+  x>    text-shadow
+          h-offset v-offset blur-radius color of shadow

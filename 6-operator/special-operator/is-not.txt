@@ -1,0 +1,3 @@
+It is use to compare the value with not null.
+
+syntax:- col_name in not null

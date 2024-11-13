@@ -1,0 +1,9 @@
+It is use to pattern matching.
+
+syntax: col_name like 'pattern to be matched'
+
+to achieve pattern matching we require two things-> first one is % operator second one is underscore
+
+%-> it will take n number of characters at time or 0 character at a time.
+
+underscore-> It will take one character at a time.

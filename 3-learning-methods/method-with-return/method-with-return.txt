@@ -1,0 +1,16 @@
+A method can return any type value which can be primitive type or non-primitive type.
+
+If a method does not return any value then the return type of method should be void.
+
+Important points: 
+     1. To return a value from a method we have to provide appropriate data-type at method declaration.
+
+     2. The value is returned from method by using return keyword.
+
+     3. The return statement must be the last statement of the block otherwise it will give compilation error.
+
+     4. If any statement is written after return statement then it will cause compilation error called unreachable statement.        
+
+     5. One method can return only one value, We can not return multiple values from a method.
+
+     

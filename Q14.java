@@ -8,6 +8,7 @@ public class Q14 {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter a number to check if it is a perfect number or not...");
     int n = sc.nextInt();
+    sc.close();
     boolean res = perfectNumber(n);
     if (res) {
       System.out.println(n + " is a perfect number. ");

@@ -33,7 +33,7 @@ DATE:- 1. It is used to store dates in a particular format.
         format: oracle specified format-> 1> DD-MON-YYYY  2> DD-MON-YY
 
 NUMBER:- It is use store numeric values.
-          e.g. syntax NUMBER(P, [S]), P = precision, S = scale (optional), range of precision is 1 to 38 (No default value), -87 to 127 (default value is 0)
+          e.g. syntax NUMBER(P, [S]), P = precision, S = scale (optional), range of precision is 1 to 38 (No default value), range of scale is -87 to 127 (default value is 0)
           Precesion:
           1. precision is use to store integer values
           2. range of precision is 1 to 38

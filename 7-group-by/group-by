@@ -1,0 +1,9 @@
+group by clause is use to group the records.
+
+syntax: select group by EXPRESSION/Group Function from table [where filter] group by col_name/EXPRESSION;
+
+order of execution:
+                        1. From 
+                        2. where [if it is present]
+                        3. group by (executes row-by-row)
+                        4. select (executes group-by-group)

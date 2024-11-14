@@ -1,0 +1,7 @@
+Vendor Prefix:- is use to apply all the latest css property in different browsers.
+
+Brwser             Vendor Prefix
+Chrome, Safari     -webkit-
+Firefox            -moz-
+Ms Edge            -ms-
+Opera              -o-

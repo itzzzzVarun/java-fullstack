@@ -1,0 +1,15 @@
+It is recenlty added in CSS3
+
+According to css Box Model If we display anything on browser will be wrapped by one rectangular box.
+
+CSS box Model helps us to determine position size etc of text or element.
+
+CSS box Model has 4 parts:
+
+Margin Area/box : The space outside the border box in known as Margin Box.
+
+Border Area/Box : It is the edge of element boundary. Here we can control the boundary width.
+
+Padding Area/Box : The space between border box and content box in known as Padding Area/box.
+
+content Area/Box : The area where content is availabe in known as contetnt area. Here content will be wrapped by one box called as content box. 

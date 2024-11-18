@@ -1,0 +1,15 @@
+Having clause is use to fitter the group.
+
+syntax: select group by expression/group function from table_name [where <filter records condition>] 
+        group by col_name/expression
+        Having <filter group condition>
+
+order of execution: 1. from
+                    2. where (if used)
+                    3. group by (row-by-row)
+                    4. Having (group-by-group)
+                    5. select (group-by-group)
+
+Question: Write a query to display to find number of empoyee working in each dept if there are atleast 3 employee in each dept
+
+query: select count(*), deptno from emp group by deptno having count(*) >= 3;

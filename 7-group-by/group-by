@@ -7,3 +7,10 @@ order of execution:
                         2. where [if it is present]
                         3. group by (executes row-by-row)
                         4. select (executes group-by-group)
+
+Note: 1. Group by clause is use to group the records.
+      2. Group by clause executes row-by-row.
+      3. After the execution of group by clause we get the groups.
+      4. Therefore any clause that executes after group by clause must executes group-by-group.
+      5. The column_name or exression used for grouping can be use for select clause.
+      6. Group by clause can be use without using where clause. 

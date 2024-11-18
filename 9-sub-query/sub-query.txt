@@ -1,0 +1,12 @@
+A query written inside another query is called sub-query. 
+
+Working Principle of Sub-query: Let consider two query outer query and inner query 
+                                1. inner query execute first and produce output
+                                2. The output of inner query is given as an input to outer query
+                                3. The outer query generate the result
+                                4. Therefore the outer query in dependent upon the inner query.
+Why/when do we use sub-query: 
+                              case-1: Whenever we have unknown present in the Question we use sub-query to find the unknown.
+  
+Question: Write a query to display name of the employee who is earning more than martin
+query: select ename, sal from emp where sal > (select sal from emp where ename='martin');

@@ -1,0 +1,11 @@
+Object Oriented Programming is a machanism to solve real-time problem with the help of class and object. Any object-Oriented language supports four pilors sach as:
+                                                        1. Encapsulation
+                                                        2. Inheritance
+                                                        3. Polymorphism
+                                                        4. ABstraction
+
+                                                    Two other pilors:
+                                                        1. class
+                                                        2. Object
+
+Note: Java is not 100% object-Oriented Programming language.

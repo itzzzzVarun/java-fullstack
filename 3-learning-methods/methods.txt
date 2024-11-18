@@ -19,3 +19,26 @@ Important points:
                   13. If main method is not static then JVM will require object reference to call main method. To avoid object creation by JVM the main method is made static.
                   14. When program starts its execution then execution is started in a special area called stack area. In stack area LIFO machanism is followed. The first frame is created for main method and after that other frames are created on top of the main frame.
                   15. stack area will be fixed in size so, if large number of frames are created in stack area then it will cause an exception called stackover error. 
+
+Structure of a method: 
+                        access modifier non-access modifier  return type  name of the method(parameters/Argument) {body}
+                          public            static             void                     main(String[] args)
+                          protected         final               int 
+                          default           abstract           byte
+                          private           synchronized       float
+                                            native             double
+                                            StrictfP           char
+                                                                String
+                                                                etc
+
+Method signature: Combination of method name along with method argument is called method signature.
+
+Method declaration: access modifier, non-access modifier, return-type along with method signature is called method declaration.
+
+Method definition: method declaration along with method body is called method definition.
+
+Important points:
+                  1. One method can have only one access modifier.
+                  2. One method can have multiple non-access modifiers.
+                  3. Sequesce does not play any role in access modifier and non-access modifier.  
+

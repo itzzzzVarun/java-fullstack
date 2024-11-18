@@ -13,4 +13,8 @@ Important points:
 
      5. One method can return only one value, We can not return multiple values from a method.
 
+     6. When the value is return from a loop then in that case we have to make sure that a common return is provided from method block.
+
+     
+
      

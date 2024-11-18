@@ -1,0 +1,11 @@
+java provides 14 different libralies where different variables and method available to perform different task.
+e.g. 
+      java.lang
+      java.io
+      java.sql
+      java.util
+      java.net
+      .
+      .
+      .
+      etc

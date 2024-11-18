@@ -1,0 +1,19 @@
+it is use to give space from inside.
+padding: value (same for top, bottom, right, left)
+
+padding: top-bottom   left-right
+
+padding: top right bottom
+
+padding: top right bottom left
+
+padding-inline: value (left-right)
+
+padding-inline: left right
+
+padding-block: value (left-right)
+
+padding-block: left right
+
+
+

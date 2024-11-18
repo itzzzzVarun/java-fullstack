@@ -1,0 +1,16 @@
+display:
+          1. inline
+          2. block
+          3. inline-block
+          4. nome
+          5. flex
+          6. inline-flex
+          7. grid
+          8. inline-grid
+
+
+1. inline: occupy space required contant and we can not set height and width
+
+2. block: we can set height and width and it occupy the entire width
+
+2. inline-block: occupy space required contant and we can set height and width

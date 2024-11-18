@@ -1,0 +1,2 @@
+The overflow property is used to control the element overflow.
+Values = Hidden, Visible, Scoll

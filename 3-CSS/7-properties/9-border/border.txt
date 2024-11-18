@@ -1,0 +1,19 @@
+It is use to define boundary around html elements
+
+border: value style color;
+
+border-width: value in px (mostly)
+
+border-style: solid/ double/ doted/ dashed/ groove
+
+border-color: value in color/hex value/ rgb/ rgba
+
+
+
+border-raduis: reduce the sharpness of edge of the border.
+          border-top-left-raduis:
+          border-top-right-raduis:
+          border-bottom-left-raduis:
+          border-bottom-right-raduis:
+
+fancy-border-raduis website is recommended

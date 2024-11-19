@@ -1,0 +1,5 @@
+Design a class for :
+                    1. employee
+                    2. laptop
+                    3. Fruit
+                    4. Browser

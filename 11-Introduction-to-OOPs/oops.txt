@@ -2,10 +2,54 @@ Object Oriented Programming is a machanism to solve real-time problem with the h
                                                         1. Encapsulation
                                                         2. Inheritance
                                                         3. Polymorphism
-                                                        4. ABstraction
+                                                        4. Abstraction
 
                                                     Two other pilors:
                                                         1. class
                                                         2. Object
 
 Note: Java is not 100% object-Oriented Programming language.
+
+
+question: Is java a 100% object Oriented language?
+answere: No, Java is not a 100% object Oriented language because of 
+                1. Primitive Data: Java supports Primitive type data which is not an object type data.
+                2. static keyword: java supports static keyword where we can access static memeber only by using class reference. In 100% object Oriented everythingh should be accessed only through object.
+                3. wrapper class: java supports wrapper class and 100% object Oriented language should not have wrapper class.
+
+class: class is a blue print, master copy or prototype from which an object is created. Class is a logical entity which will not have physical existance. By using one class we can created multiple objects in java. Every class in java is a non-primitive type data. A class is created by using keyword class.
+        The actual value of the class will be object and the defualt value of a class will be null.
+
+
+object: Object is the physical implementation of a class. Object is a physical entity which occupies space in memory. Object will have all the details which is defined by the class. 
+        object is created at run time dynamically inside a special area called heap area.
+
+Note: 1. class does not require but Whenever object is created then memory is allocated for the object inside heap area.
+      2. class is created by using class keyword but object is created by using new keyword.
+      3. Every class in java can have, states and behaviours
+
+1> states: states are the details or the descriptions about the class. states of class form variable for the class.
+    e.g. name, price, color
+         type, brand, age
+         rollno, eid, salary
+
+2> behaviours: behaviours are the actions performed by the object. behaviours forms methods of the class.
+    e.g. start(), stop()
+         drive(), run(), read()
+
+Question: Design a class or blue print for car.
+
+class Car {
+  String name;
+  double price;
+  String type;
+
+  public void start() {
+    sop("Start car");
+  }
+
+  public void stop() {
+    sop("stop car");
+  }
+}
+

@@ -1,0 +1,63 @@
+Question: WAQTD name of the employee earning more than ALLEN.
+
+Query: select ename from emp where sal >  (select sal from emp where ename = 'allen');
+
+
+Question: WAQTD name and salary of the employee earning more than King.
+
+Query: select ename, sal from emp where sal <  (select sal from emp where ename = 'king');
+
+
+Question: WAQTD name and deptno of the employee if they are working in the same dept as jones.
+
+Query: select ename, deptno from emp where deptno =  (select deptno from emp where ename = 'jones');
+
+
+Question: WAQTD name and job of the employee if they are working in the same designation as ward.
+
+Query: select ename, job from emp where job =  (select job from emp where ename = 'ward');
+
+
+Question: WAQTD name, empid along with the annual salary of the employee if they are their annual salary is more than the annual salary of ward.
+
+Query: select empno, ename, sal*12 as annul_salary from emp where sal*12 > (select sal*12 from emp where ename = 'ward');
+
+
+Question: WAQTD name, hiredate if they are hired before scott.
+
+Query: select ename, hiredate from emp where hiredate < (select hiredate from emp where ename = 'scott');
+
+
+Question: WAQTD name, hiredate if they are hired after president.
+
+Query: select ename, hiredate from emp where hiredate < (select hiredate from emp where job = 'president');
+
+
+Question: WAQTD name, salary if they are earning less than the employee is earning who's empno is 7839.
+
+Query: select ename, sal from emp where sal < (select sal from emp where empno = 7839);
+
+
+Question: WAQTD details if the employees are hired before miller.
+
+Query: select * from emp where hiredate < (select hiredate from emp where ename = 'miller');
+
+
+
+Question: WAQTD name and empno of employees who are earning more than allen.
+
+Query: select ename, empno from emp where sal+comm < (select sal+comm  from emp where ename = 'allen');
+
+
+
+Question: WAQTD name and salary of employees who are more than miller and earning less than allen.
+
+Query: select ename, sal from emp where sal > (select sal  from emp where ename = 'allen') and sal < (select sal from emp where ename = 'allen');
+
+
+
+
+
+
+
+

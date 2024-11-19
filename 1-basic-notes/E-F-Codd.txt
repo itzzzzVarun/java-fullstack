@@ -1,6 +1,6 @@
 Rules of E.F. Codd:
 
-1) The data entered into a cell must be a single value data.
+1) The data entered into a cell must be a single valued data.
 
 * we can not store data (Multiple data) in a single cell so, we have to create one more column to store data in a single-single cell.
 

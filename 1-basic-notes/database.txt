@@ -1,4 +1,4 @@
-Database: It is place, medium or a container where we used to store data in a systemetic or a organized manner.
+Database: It is place, medium or a container where we used to store data in a systemetic or  organized manner.
 The basic operation that can be performed on a database are CRUD operation
 
       C --> Create/Insert

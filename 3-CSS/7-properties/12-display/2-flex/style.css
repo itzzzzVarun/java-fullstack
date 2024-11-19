@@ -1,0 +1,72 @@
+*,::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.hero {
+  width: 100%;
+  height: 100%;
+  background-color: crimson;
+  display: flex;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+}
+
+.hero > .card-1 {
+  background-color: black;
+}
+
+.hero > .card-2 {
+  background-color: lightblue;
+}
+
+.hero > .card-3 {
+  background-color: mediumblue;
+}
+
+.hero > .card-4 {
+  background-color: magenta;
+}
+
+.hero > .card-5 {
+  background-color: hotpink;
+}
+
+.hero > .card-6 {
+  background-color: lightgreen;
+}
+
+/* assignment : Zerodha valorant */
+
+@media screen and (max-width: 800px) {
+  .hero {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .card {
+    width: 200px;
+    height: 200px;
+  }
+}

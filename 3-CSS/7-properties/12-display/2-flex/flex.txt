@@ -1,0 +1,8 @@
+display : flex;
+
+It is one dimensional layout module.
+
+flex-direction: i> row
+                ii> column
+                iii> row-reverse
+                iv> column-reverse

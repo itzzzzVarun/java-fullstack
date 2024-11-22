@@ -33,3 +33,9 @@
 16. Write a java program to Write sum all even number upto 100.
 
 17. Write a java program to Write sum all odd number upto 100 which are also divisible by 3.
+
+Question: Deisgn a method which will accept tree integer numbers and will provide LCM of 3 numbers.
+
+Question: Deisgn a method which will accept 3 integer number and will provide GCD or HCF of the numbers.
+
+ArmStrong number: If the sum of each digit of a number is raised by the count of digit is equal to number itself then sach number is called ArmStrong number.

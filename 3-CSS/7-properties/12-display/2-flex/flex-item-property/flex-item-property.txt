@@ -1,0 +1,19 @@
+Flex item property:
+                    1. flex-basis: px / % / rem;
+
+                    2. order:
+                              i.
+                              ii.
+                              iii.
+                    3. align-self: 
+                                  stretch
+                                  flex-start
+                                  flex-end
+                    4. flex-grow:
+                                0 (default)
+                                1
+                    5. flex-strink:
+                                i> 1 (default)
+                                ii> 2
+                                iii> 3
+                                iv> 4

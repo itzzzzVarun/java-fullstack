@@ -6,3 +6,14 @@ flex-direction: i> row
                 ii> column
                 iii> row-reverse
                 iv> column-reverse
+
+justify-contant: i> flex-start
+                ii> flex-end
+                iii> center
+                iv> space-between (maximum space between two children)
+                v> space-around
+                vii> space-evenly
+align-item: i> stretch
+            ii> flex-start
+            iii> flex-end
+            iv> center

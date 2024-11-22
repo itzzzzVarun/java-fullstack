@@ -1,0 +1,64 @@
+*,::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  background-color: black;
+  box-shadow: 0px 0px 30px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+}
+
+.card-1 {
+  background-color: yellow;
+  flex-basis: 600px;
+  order: 3;
+  align-self: flex-end;
+}
+
+.card-2 {
+  background-color: tomato;
+  flex-basis: 400px;
+  order: 2;
+}
+
+.card-3 {
+  background-color: blueviolet;
+  flex-basis: 350px;
+  order: 1;
+  align-self: flex-start;
+}
+
+
+.card > h1 {
+  text-align: center;
+}
+.card > ul {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin: 20px;
+}

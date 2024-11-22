@@ -1,0 +1,8 @@
+Memory Structure:- When a program start execution then JVM creates some important memory block sach as:
+                                                  
+                                                  1. static method area
+                                                  2. class static area
+                                                  3. Stack area
+                                                  4. Heap area
+
+

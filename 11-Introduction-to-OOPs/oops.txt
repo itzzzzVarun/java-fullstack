@@ -53,3 +53,14 @@ class Car {
   }
 }
 
+Object is created in java with the help of new keyword and constructor of the class.
+
+new keyword: new is a keyword which is responsible to create an empty object inside heap area. Once object in created then it is assign with an address in hexadecimal form. Whenever new keyword is used then a new memory allocation will take place for object inside heap area.
+
+e.g. Employee e1 = new Employee()
+
+    Employee = non primitive data type / reference data type
+    e1 = variable name / object reference / reference variable
+    new = It create an empty object inside heap area
+    Employee() = constructor of class which loads all non-static memeber inside object 
+

@@ -1,5 +1,16 @@
 Design a class for :
-                    1. employee
+                    1. employ
                     2. laptop
                     3. Fruit
                     4. Browser
+
+Design driver class where object of :
+                                      1. employ
+                                      2. laptop
+                                      3. Fruit
+                                      4. Browser
+                                    should be create.
+
+Initialize the details of object and print it.
+
+

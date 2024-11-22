@@ -1,0 +1,12 @@
+Difference b/w heap area and stack area:- 
+
+1. main method is executed in stack area but object is created in heap area. 
+
+2. In stack area local variable and object reference will be available but in heap area all the non-static members are loaded inside object.
+
+3. stack area members provide faster execution but the heap area members execution will be slower than stack area.
+
+4. Stack area is fixed in size so stack overflow error occurs inside stack area but heap area is growable so out of memory error occurs inside heap area.
+
+
+Note: 1> All static members are available at one place inside class static area so a static method can access any other static member directly without the need of object.

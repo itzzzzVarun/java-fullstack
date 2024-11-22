@@ -1,0 +1,7 @@
+We use max() and min() functions to retrieve other attributes.
+
+Example:-
+
+Question: WAQTD ename of the employee who earns maximun salary?
+
+Query: select ename from emp where sal = (selec max(sal) from emp);

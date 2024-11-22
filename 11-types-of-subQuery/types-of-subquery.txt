@@ -1,0 +1,12 @@
+Types of sub-query:
+
+1> single row sub-query
+2> multi-rom sub-query
+
+
+single row sub-query: 1. If the sub-query returns excatly one value or record, we call it as single row sub-query.
+                      2. If it returns only one value then we can use the normal operator or the special operator to compare the values. 
+
+multi row sub-query: 1. If the sub-query returns more than one value or record, we call it as multi row sub-query.
+                     2. As it returns more than one value, we must use only special operator.
+ WAQTD enane and salary of the employee earning more than employee of dept 10.

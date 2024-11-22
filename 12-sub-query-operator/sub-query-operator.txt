@@ -1,0 +1,11 @@
+sub-query operator:-
+
+1> All: 
+        a. It is a special operator used along with relational operator(>,<,<=,>=) to compare the value present at the right hand side. 
+
+        b. It returns true if all the value at the RHS have satisfied the condition.
+
+2> ANY: 
+        a. It is a special operator used along with relational operator to compare the values present at the right hand side.
+
+        b. It returns true if any the value at the RHS have satisfied the condition.

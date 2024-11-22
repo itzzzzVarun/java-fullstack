@@ -10,3 +10,8 @@ Why/when do we use sub-query:
   
 Question: Write a query to display name of the employee who is earning more than martin
 query: select ename, sal from emp where sal > (select sal from emp where ename='martin');
+
+
+                              case-2: Whenever the data to be selected and the condition to be executed are present in different table we are using sub-query
+Question: Write a query to display D_Name of smith;
+Query: select D_Name from dept where dept_no = (select deptno from emp where ename = 'smith');

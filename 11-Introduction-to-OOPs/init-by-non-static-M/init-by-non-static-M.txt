@@ -1,0 +1,2 @@
+Initialization by non-static method: 
+                            Whenever an object is created then all the details of object are stored on object reference so a non-static method which will be loaded inside object can be used to initialize the object.

@@ -64,3 +64,61 @@ e.g. Employee e1 = new Employee()
     new = It create an empty object inside heap area
     Employee() = constructor of class which loads all non-static memeber inside object 
 
+
+
+Initialization of object:
+                          Assign value to the non-static members of the object is called initialization object. We can initialization an object in three ways:
+                          1> Initialization by using object reference
+                          2. Initialization by using non-static method
+                          3> Initialization by constructor
+
+Initialization by using object reference:
+                          When an object is created then all the details ob object is store as
+                          so we can use object reference to initialize the object.
+                          
+                          e.g.
+                                Employee {
+                                  String name;
+                                  int id;
+                                  double salary;
+                                }
+                                Employee e1 = new Employee();
+                                e1.name = "Mohan";
+                                e1.id = 233;
+                                e1.salary = 12345;
+
+
+Initialization by non-static method: 
+                            Whenever an object is created then all the details of object are stored on object reference so a non-static method which will be loaded inside object can be used to initialize the object.
+
+                            class Employ {
+                              String name;
+                              int id;
+                              double salary;
+
+                              public static void setValue(String name, int id, double salary) {
+                                    this.name = name;
+                                    this.id = id;
+                                    this.salary = salary; 
+                              }
+                              public void getDetails() {
+                                      System.out.println("Name is " + this.name);
+                                      System.out.println("Id is " + this.id);
+                                      System.out.println("salary is " + this.salary);
+                              }
+                              }
+
+                            class EmployDriver {
+                              public static void main(String[] args) {
+                                Employ e1 = new Employ();
+                                Employ e2 = new Employ();
+
+                                e1.name = "Mohan";
+                                e2.name = "Sohan";
+                                e1.setValue("Mohan", 128, 34567.8);
+                                e1.setValue("Sohan", 223, 45032.8);
+                              }
+                            }
+
+this keyword: 1> 'this' is a keyword which is used to refer non-static memebers of the same class. 
+              2> 'this' keyword holds the reference of current object under execution.

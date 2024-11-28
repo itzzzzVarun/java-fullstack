@@ -1,0 +1,29 @@
+
+Constructor is a special member of class which is used to load and initialize all the non-static members of a class inside object.
+
+Difference b/w method and constructor:
+
+1> A method can have any name but the name of constructor must be same as the class name.
+
+2> A method will always have return statement but a constructor will not have return statement.
+
+3> A method can be static, final, abstract or synchronized but there all keyword are not applicable for constructor so a constructor will never be static, final, abstract or synchronized.
+
+4> A method is executed by method call but a constructor is executed whenever object gets created.
+
+5> A method is used to perform all general purpose task but a constructor is used to initialize the non-static members of a class.
+
+Types of constructor: 
+                      There are two types of constructors in java.
+                      1. Default Constructor
+                      2. User-define Constructor
+                                            A. No-Argument Constructor
+                                            B. Parameterized Constructor
+
+        Default Constructor: A constructor which is added by compiler in .class file is called Default constructor. Default constructor is added only if .java file will not have any user defined constructor. If .java file will have any user-defined constructor then Default constructor will not be added by compiler.
+        
+        Use of Default Constructor: Default constructor helps in object creation even in case user-define constructor is not provided by programmer.
+
+        User-defined Constructor: A constructor defined by programmer is called user-defined constructor.
+
+              No-Argument Constructor: If a user-defined constructor does not take any argument then it is called no-argument constructor

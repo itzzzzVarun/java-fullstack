@@ -10,3 +10,19 @@ Difference b/w heap area and stack area:-
 
 
 Note: 1> All static members are available at one place inside class static area so a static method can access any other static member directly without the need of object.
+
+      2> All non-static members are loaded inside object so a non-static method can call any non-static memeber directly.
+
+      3> The details of all static members are shared with object in heap area so a non-static method can directly access any static member.
+
+      4> The details of any non-static memebers are not shared with static members in class static area. So a static method can not access a non-static memeber directly. A static method can access a non-static memeber only by using object reference.
+
+
+Variable Shawoding: It is a machanism in which, we create local and global variable of same name and access the variable inside local block then we only can access local variable directly in local block, this is called variable Shawoding. To access global variable
+                    case-1:   if the global variable is non-static 
+                              inside local block we must 'this' keyword along with the variable name.
+
+                    case-2:   if the global variable is static
+                              inside local block we must class name as reference along with the variable name.
+
+

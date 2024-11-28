@@ -1,0 +1,66 @@
+The process of retrival of a data from multiple table simultaneously in known as joins.
+
+Types of joins:
+                  1> Cross join / Cartesian join
+                  2> Inner Join / Equi join
+                  3> Outer join
+                              i> Left outer join
+                              ii> Right outer join
+                              iii> Full outer join
+                  4> Self join
+                  5> Natural join
+
+
+1> Cross join / Cartesian join: In Cross join a record from table_1 will be merged with all the records of table_2.
+
+ANSI syntax:
+              select col_name from table_1 cross join table_2;
+
+Oracle syntax: 
+                select col_name from table_1, table_2;
+
+Number of columns in the result table: Will be equivalent to the sumation of the columns present in both the table.
+
+Number of rows in the result table: Will be equivalent to the product of the columns present in both the table.
+
+
+Inner join: It is use to optain only matching record or a record which has a pair.
+
+ANSI syntax: 
+              select col_name from table_1 inner join  table_2 on <join condition>;
+
+Oracle syntax: 
+                select col_name from table_1, table_2 where <join condition>; 
+
+
+Outer Join: It is use to optain unmatch record.
+
+Type of outer joins:
+                      1. Left outer join: It is use to optain unmatch record of left table along with matching records.
+
+                      ANSI syntax: select col_name from table_1 left outer join table_2 on <join condition>
+
+                      Oracle syntax: select col_name from table_1 left join table_2  where <join condition>;
+
+
+
+                      2. Right outer join: It is use to optain unmatch record of right table along with matching records.
+
+                        ANSI syntax: select col_name from table_1 right outer join table_2 on <join condition>;
+
+                        Oracle syntax: select col_name from table_1 right join table_2  where <join condition>;
+
+                      3. Full outer join: It is use to optain unmatch record of both left and right table along with matching records.
+                      syntax: select col_name from table_1 left join table_2  where <join condition> union all select col_name from table_1 right join table_2  where <join condition>;
+
+
+Self join: Joining a table by itself is known as self join.
+
+                    why/when?
+                      whenever the data to select is in the same table but present in different record we use self join.
+                    syntax: select col_name from table_1 join table_2 on <join condition>;
+
+Natural Join: It behaves as inner join if there is relation between given two tables else it behaves as cross join.
+                    syntax: select col_name from table_1 Natural Join table_2;
+
+                    

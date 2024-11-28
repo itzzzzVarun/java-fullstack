@@ -54,10 +54,28 @@ Question: WAQTD name and salary of employees who are more than miller and earnin
 
 Query: select ename, sal from emp where sal > (select sal  from emp where ename = 'allen') and sal < (select sal from emp where ename = 'allen');
 
+======================================================== Joins ===========================================================
+
+Ans-3: select A.ename, A.sal as emp_sal, B.ename as mgr_name, B.sal as mgr_sal from emp A, emp B where B.empno = A.mgr and A.sal > 2300 and B.sal > 2300;
 
 
+Ans-4: select A.ename, A.hiredate as emp_hiredate, B.ename as mgr_name, B.hiredate as mgr_hiredate from emp A, emp B where B.empno = A.mgr and A.hiredate < '1982-01-01';
 
+Ans-5: select A.ename, B.comm as mgr_comm from emp A, emp B where B.empno = A.mgr and A.job = 'salesman' and B.deptno = 30;
 
+Ans-6: select A.ename, A.sal as emp_sal, B.ename as mgr_name, B.sal as mgr_sal from emp A, emp B where B.empno = A.mgr and A.sal > B.sal;
 
+Ans-7: select A.ename, A.hiredate as emp_hiredate, B.ename as mgr_name, B.hiredate as mgr_hiredate from emp A, emp B where B.empno = A.mgr and B.hiredate < A.hiredate;
+
+Ans-8: select A.ename, A.job as emp_job, B.ename as mgr_name, B.job as mgr_job from emp A, emp B where B.empno = A.mgr and B.job = A.job;
+
+Ans-9: select A.ename, B.ename as mgr_name, B.job as mgr_job from emp A, emp B where B.empno = A.mgr and B.job = 'manager';
+
+Ans-10: select A.ename, A.sal as emp_sal, A.sal*12 as emp_annual_sal, B.ename as mgr_name, B.sal as mgr_sal, B.sal*12 as mgr_annual_sal from emp A, emp B where B.empno = A.mgr and A.deptno in(10, 20) and B.sal
+> A.sal;
+
+Ans-11: select A.ename, B.ename as mgr_name, B.job as mgr_job from emp A, emp B where B.empno = A.mgr;
+
+Ans-12: select A.ename, B.ename as mgr_name, B.sal as mgr_sal from emp B, emp A where B.empno = A.mgr and B.sal%100 = 50;
 
 

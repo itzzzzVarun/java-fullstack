@@ -13,3 +13,6 @@ order of execution: 1. from
 Question: Write a query to display to find number of empoyee working in each dept if there are atleast 3 employee in each dept
 
 query: select count(*), deptno from emp group by deptno having count(*) >= 3;
+
+
+select col_name from table group by col_name;

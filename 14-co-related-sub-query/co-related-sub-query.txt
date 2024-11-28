@@ -1,0 +1,43 @@
+co-related-sun-query: A query written inside another query such that the outer query and the inner query are dependent on each other this is known as co-related sub-query
+
+
+Outer query --------1/2 o/p---->------intput--->---inner query--------------output-------->--input------>Outer Query---> Final Output
+
+Let's consider two query, inner query and outer query:
+                                          1> Outer query executed partially
+                                          2> The partially executed output is given as the input to the inner query
+                                          3> The inner query executes completely and generates an output
+                                          4> The output of inner query is given as input to outer query
+                                          5> And outer query produce the result.
+                                          6> Therefore we can state that the outer query and inner query both are interdependent.
+
+Note: 1> In co-related sub-query a join condition must be given and must be written only in inner query.
+      2> co-related sub-query works with the principle of both sub-query and joins.
+
+Question: WAQTD dname in which there are employees working. 
+
+select dname from dept where deptno in (select deptno from emp where emp.deptno = dept.deptno);
+
+
+difference between sub-query and co-related sub-query:
+
+SUB_QUERY:
+
+1> Sub-query executes first 
+
+2> Outer query is dependent on inner query
+
+3> Join condition not mandatory
+
+4> Outer query executes once
+
+
+CO_RELATED SUB_QUERY:
+
+1> Outer query executes first
+
+2> Both are interdependent
+
+3> Joins condition is mandatory and must be written in inner query.
+
+4> Outer query executes Twice.

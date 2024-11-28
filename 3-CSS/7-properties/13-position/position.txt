@@ -1,0 +1,5 @@
+position: static (default)
+          relative
+          absolute
+          fixed
+          sticky

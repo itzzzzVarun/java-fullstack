@@ -1,0 +1,32 @@
+Difference b/w flex and grid:
+
+
+                            grid                           |                           flex
+                                                           |   
+            It is 2D layout module                         |             It is 1D layout module
+                                                           |
+            Can flex conbination of item through           |
+            space-occupaying feature.                      |         Can push content 
+
+
+
+
+
+Properties of Grid:
+
+      1. Grid container properties: 
+                    a. display: gird / inline-grid
+
+                    b. grid-template-rows:_____;
+
+                    c. grid-template-columns:_______;
+
+                    d. gap:____row gap_____  ____column gap_____;
+
+                    e. justify-content: stretch / start / end / center / space-between / space-around / space-evenly;
+
+                    f. align-content:  stretch / start / end / center / space-between / space-around / space-evenly;
+
+                    g. justify-items: stretch / flex-start / flex-end / center;
+
+                    h. align-items: stretch / flex-start / flex-end / center;

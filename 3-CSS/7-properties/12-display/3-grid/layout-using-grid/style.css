@@ -1,0 +1,129 @@
+*,::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 200px  600px 100px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: black;
+}
+
+main {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: aqua;
+}
+
+aside {
+  background-color: tomato;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: black;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: auto;
+}
+
+.header-flex > a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+
+.header-flex > a:hover{
+
+  
+  font-size: 3rem;
+  transition: all 45ms;
+  font-size-adjust: 10px;
+  
+}
+
+.main-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.main-flex > .card {
+    width: 20%;
+    height: 40%;
+}
+
+.main-flex > .card-1 {
+  background-image: linear-gradient(magenta, green, yellow) ;
+}
+
+.main-flex > .card-2 {
+  background-image: linear-gradient(magenta, green, yellow) ;
+}
+
+
+.main-flex > .card-3 {
+  background-image: linear-gradient(magenta, green, yellow) ;
+}
+
+.main-flex > .card-4 {
+  background-image: linear-gradient(magenta, green, yellow) ;
+}
+
+.main-flex > .card-5 {
+  background-image: linear-gradient(magenta, green, yellow) ;
+}
+
+.main-flex > .card-6 {
+  background-image: linear-gradient(magenta, green, yellow) ;
+}
+
+.main-flex > .card-7 {
+  background-image: linear-gradient(magenta, green, yellow) ;
+}
+
+.main-flex > .card-8 {
+  background-image: linear-gradient(magenta, green, yellow) ;
+}
+
+
+aside > marquee {
+  font-size: 30px;
+  text-align: justify;
+  color: black;
+  padding: 30px;
+}
+
+footer > p {
+  font-size: 30px;
+  text-align: center;
+  color: red;
+  line-height: 100px;
+}

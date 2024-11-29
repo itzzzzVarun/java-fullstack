@@ -1,0 +1,10 @@
+Exists:
+      1> It is a uanary operator which can accept one operand towards right hand side and that operand has to be a co-related sub-query.
+
+      2> Exist operator returns true, if the sub-query returns any value other than null.
+
+
+Not Exists: 
+            1> Not Exists operator isa uanary operator which can accept one operand towards right hand side and that operand has to be a co-related sub-query.
+
+            2> Exist operator returns true, if the sub-query returns null.

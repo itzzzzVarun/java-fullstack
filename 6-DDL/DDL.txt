@@ -1,0 +1,13 @@
+
+DDL is use to construct the object in database and deals with the structure of the object.
+
+It has five statements:
+                          1> create
+                          2> rename
+                          3> alter
+                          4> truncate
+                          5> drop
+
+create: It is used to build or construct an object.
+
+        syntax: Create table tname()

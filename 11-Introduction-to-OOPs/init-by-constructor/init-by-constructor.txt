@@ -27,3 +27,5 @@ Types of constructor:
         User-defined Constructor: A constructor defined by programmer is called user-defined constructor.
 
               No-Argument Constructor: If a user-defined constructor does not take any argument then it is called no-argument constructor
+
+              Parameterized Constructor: If a constructor takes different arguments at its Parameter then it is called Parameterized constructor. Parameterized constructor is used to initialize the non-static members of class inside object

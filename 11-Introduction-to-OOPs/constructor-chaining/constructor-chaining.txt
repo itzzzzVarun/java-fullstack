@@ -1,0 +1,10 @@
+constructor changing is a machenism to call one constructor from another constructor. It is achieved in two ways:
+
+                1> Using this() statement
+                2> Using super() statement
+
+
+  this() statement: this() statement is used to call one constructor from another constructor inside the same class.
+          syntax: this(var_name_1, var_name_2, var_name_3, ....)  
+
+Note: constructor call must be the first statement of constructor otherwise it will cause compilation error

@@ -1,0 +1,11 @@
+constructor overloading is a machenism to have multiple constructor inside a class with different arguments.
+
+We can achieve overloading in 3-ways:
+                                        1> By changing the number of arguments at parameter.
+                                        2> By changing the data type at argument.
+                                        3> By changing the sequence of data type.
+
+
+Advantage of constructor overloading: constructor overloading provides flexibility in creating object. If multiple constructors are available in class then we will have multiple ways to create the object.
+
+

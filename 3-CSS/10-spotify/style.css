@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Caprasimo&family=Lato:ital,wght@1,100&family=Poppins:wght@300;400;500;600&display=swap');
+
+*,::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Header-design */
+
+#header  {
+  width: 100%;
+  height: 68px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 30px 15px;
+}
+
+#header img {
+  width: 30px;
+  height: 30px;
+}
+
+#header .mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px 15px;
+}
+
+#header .mid .home {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header .mid .search-container {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid grey;
+  width: 474px;
+  height: 48px;
+  border-radius: 25px;
+  padding: 5px;
+  gap: 0 10px;
+}
+
+#header .mid .search-container input {
+  width: 100%;
+  border: none;
+  outline: none;
+  /* border: 0.5px solid #1f1f1f; */
+  font-size: 15px;
+  caret-color: white;
+  background: none;
+}
+
+#header .mid .search-container .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#header .right {
+  display: flex;
+  gap: 0 20px;
+}
+
+#header .right button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#header .right button:first-of-type {
+  background:none;
+  color: white;
+}
+
